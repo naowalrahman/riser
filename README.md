@@ -14,7 +14,12 @@ However, if you have a URL on your clipboard already, you can click on the exten
 
 ## Installation 
 
-First, download the zip file for this repository or clone it with git using `git clone https://github.com/naowalrahman/riser.git`. Then, go to your extensions page on chrome and enable developer mode: 
+First, download the zip file for this repository or clone it with git using:
+```
+git clone https://github.com/naowalrahman/riser.git
+```
+
+Then, go to your extensions page on chrome and enable developer mode: 
 
 ![developer mode on](/repo-img/developermode.png)
 
