@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# RISer
 
-You can use the [editor on GitHub](https://github.com/naowalrahman/riser/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+RISer stands for reverse image searcher. It is a web browser extension that adds a menu item to the right click menu when the user clicks on an image, and on click, lets the user search for that image on Google images. Though this functionality was on earlier versions of chromium, it has now been removed and thus this extension aims to provide the same functionality. Keep in mind that, as of now, this extension only works on chromium-based web browsers (Google Chrome, Brave, Vivaldi, etc.) because it uses Google Chrome's API. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Usage
 
-### Markdown
+Given any image on any site, simply right click on an image and click "reverse image search." This will redirect you to Google images and display the content based on the searched image: 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![right click menu](/repo-img/rightclickmenu.png)
 
-```markdown
-Syntax highlighted code block
+However, if you have a URL on your clipboard already, you can click on the extension icon in the top right corner and paste it in, which will do the same thing: 
 
-# Header 1
-## Header 2
-### Header 3
+![popup menu](/repo-img/popup.png)
 
-- Bulleted
-- List
+## Installation 
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+First, download the zip file for this repository or clone it with git using:
+```
+git clone https://github.com/naowalrahman/riser.git
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then, go to your extensions page on chrome and enable developer mode: 
 
-### Jekyll Themes
+![developer mode on](/repo-img/developermode.png)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/naowalrahman/riser/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Then, click on "load unpacked": 
 
-### Support or Contact
+![load unpacked extension](/repo-img/loadunpacked.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+And finally, turn the extension on: 
+
+![turn on extension](/repo-img/turnextensionon.png)
+
+And... that's all! You're set to use the extension. 
+
+## Contributions
+
+If you want to add a new feature or report an issue for this program, feel free to do so! Report issues in the issues tab, and to add new features, just make a pull request. 
